@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.kv.myresume.ScrollingActivity"
+    tools:showIn="@layout/activity_scrolling">
+    
+    <RelativeLayout android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp"
+        android:id="@+id/email"
+        android:text="@string/email_text" />
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp"
+        android:id="@+id/phone"
+        android:text="@string/phone_text" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/phone"
+            android:layout_centerHorizontal="true"
+            android:textSize="15sp"
+
+            android:id="@+id/github"
+            android:text="@string/github_text" />
+
+    <TextView
+        android:id = "@+id/description"
+        android:layout_below="@id/github"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="@string/description_text"
+        android:layout_gravity="bottom" />
+
+        <TextView
+            android:id = "@+id/skillsheading"
+            android:layout_below="@id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="@string/skills_heading" />
+
+
+        <TextView
+            android:id = "@+id/technicalSkills"
+            android:layout_below="@id/skillsheading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="@string/technical_skills" />
+
+        <TextView
+            android:id = "@+id/professinalSummary"
+            android:layout_below="@id/technicalSkills"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="@string/professional_summary_heading" />
+
+
+        <TextView
+            android:id = "@+id/professinalSummaryI"
+            android:layout_below="@id/professinalSummary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="@string/professional_summary_I" />
+
+        <TextView
+            android:id = "@+id/professinalSummaryII"
+            android:layout_below="@id/professinalSummaryI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="@string/professional_summary_II" />
+
+
+        <TextView
+            android:id = "@+id/professinalSummaryIII"
+            android:layout_below="@id/professinalSummaryII"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="@string/professional_summary_III" />
+
+        <TextView
+            android:id = "@+id/academicqualificationheading"
+            android:layout_below="@id/professinalSummaryIII"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="@string/academic_qualification_heading" />
+
+        <TextView
+            android:id = "@+id/academicqualificationI"
+            android:layout_below="@id/academicqualificationheading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="@string/academic_qualification_I" />
+
+        <TextView
+            android:id = "@+id/academicqualificationII"
+            android:layout_below="@id/academicqualificationI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="@string/academic_qualification_II" />
+
+    </RelativeLayout>
+
+</android.support.v4.widget.NestedScrollView>

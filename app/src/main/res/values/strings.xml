@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">"Karthikeyan Venkatesan"</string>
+    <string name="email_text">"<b>karthidg@gmail.com</b>"</string>
+    <string name="phone_text">"<b>1234567890</b>"</string>
+    <string name="github_text">"<b>https://github.com/karthivijay</b>"</string>
+    <string name="description_text">
+        "<b>\nSENIOR SOFTWARE AUTOMATION TESTER</b>"
+        "\nDedicated QA engineer with extensive technical experience in test automation development and executing QA engineering procedures. Skilled in in Java, Groovy, Selenium/TestNG/Geb automation, functional testing and designing test scenarios.\n\nQualifications include three years of Manual QA software testing experience, three years of automation development and testing experience and a year of experience in leading teams.\n\nBacked by strong credentials including a master’s in software engineering, experience in agile methodologies and test management tools; advanced command in web testing, webservices testing and mobile testing."
+        </string>
+
+    <string name ="skills_heading">"<b>SKILLS SUMMARY\n</b>"
+        ●	SQA Testing  Methodologies
+        ●	Test Plans, Cases and Processes
+        ●	Functional Requirements
+        ●	Scripting and Documentation
+        ●	Regression and Negative Testing
+        ●	UI and Compatibility Testing
+        ●	Testing Automation
+        ●	Software Development Life Cycle
+        ●	Defect/Bug Tracking
+        ●	Test Strategies and Coverage
+        ●	Agile Methodologies
+        ●	Test Data Management
+        ●	QA and QC Standards
+
+    </string>
+
+    <string name ="technical_skills">"<b>TECHNICAL SKILLS\n</b>"
+        •	Selenium
+        •	Restful Web Services
+        •	API’s
+        •	Mobile Web Testing
+        •	Mobile APP Testing
+        •	Agile
+        •	Java
+        •	Groovy
+        •	TestNG
+        •	maven
+        •	gradle
+        •	Perfecto Automation
+        •	Jenkins
+        •	HP UFT
+        •	IntelliJ IDE
+        •	Eclipse
+        •	Jira
+        •	HP Quality Center 9.5/11
+        •	Mingle
+        •	SQL server
+        •	App Watch
+        •	Omniture
+        •	IBM sterling OMS\n</string>
+    <string name = "professional_summary_heading"><b>PROFESSIONAL SUMMARY</b></string>
+    <string name = "professional_summary_I">
+"<b>Mobile Website QA Onsite Lead</b>, 04/2016 to till date\n
+ <b>Wipro Technologies</b> – Milpitas, USA"
+
+        Overseeing the QA efforts[Manual and automation] for monthly releases for mobile website. Performed feature testing, regression testing, automation testing, Working closely with development, test data and PMO teams. Working in the agile delivery model. Providing the defect metrics, sign off documents, effort burn chart on monthly basis. Monthly demo to the development team, Business Analysts, engineering teams on the automation validation points.
+
+"<b>Results:</b>"
+        1. Identifying requirement defects early in the life cycle: By engaging actively in the scope walkthrough and engineering demo, found out critical requirement defects early in the SDLC.
+        2. Automation design before the code is deployed: Using style guides and requirements, scripts are developed earlier in the life cycle and hence automation testing is performed from the day in which QA build is deployed.
+        3. Coverage of Automation Scripts: By providing the automation demo's and collecting feedback from different teams, automation scripts are made fool proof and the coverage by automation scripts increased by around 15% which in turn reduces the manual effort. 30% increase in the number of defects found out by automation scripts when compared to previous releases.
+        4. Defects are being raised with all the details which help development team to resolve those defects quickly.
+        5. Proper documentation of test plan, defect metrics and sign off documents."</string>
+    <string name = "professional_summary_II">
+"<b>Automation Test Engineer</b>, 10/2014 to 04/2016\n
+  <b>Wipro Technologies</b> – Chennai, India/Milpitas, USA"
+
+        Automation test engineer for web services testing. Automation scripts were written in both groovy and java. Geb framework and TestNg framework were used. Smooth transition of all the regression test cases from SOAPUI framework to TestNg framework. Bugs were raised with proper details. Friendlier test report was implemented.
+
+"<b>Results:</b>"
+        1. Testing cycle was reduced from 3 days to 0.5 days after TestNG migration is done.
+		2. More user friendly test report, which can be interpreted by all including PM's and BA's.
+		3. Data fetching during run time: Data fetching using Web services call was implemented, which took 4 to 5 minutes to load all the data required to run 3000 test cases, which reduced the involvement of TDM team.
+		4. Found 30 data type discrepancies between ICD and the actual implementation: As a result of data type validation, we found out around 30 data type discrepancies when we moved from SOAPUI to TestNg framework.
+</string>
+
+
+<string name = "professional_summary_III">
+"<b>Test Engineer</b>, 08/2010 to 10/2014\n
+  <b>Wipro Technologies</b> – Chennai, India"
+
+        ●	Extensive web testing in retail domain
+		●	Experience with test management tools HP QC, Jira and Mingle.
+		●	Prepared and submitted Regression test reports along with deployment Sign off documents.
+		●	Effective communication with Development team, during bug tracking cycle.
+		●	Regression Test Suite is updated and Optimized after every release.
+		●	Created test data and maintained a test data bed for QA team, which reduces the dependency and reduces the cycle time.
+</string>
+    <string name = "academic_qualification_heading"><b>ACADEMIC QUALIFICATION</b></string>
+<string name = "academic_qualification_I">
+"<b>Degree			- M.Tech</b>\n
+ <b>Specialization  - Software Engineering</b>\n"
+ Year of Graduation - 2014
+ Institution 		- BITS,Pilani
+ CGPA 				- 8.53
+</string>
+
+<string name = "academic_qualification_II">
+"<b>Degree			- B.SC.</b>\n
+ <b>Specialization  - Physics</b>\n"
+ Year of Graduation - 2010
+ Institution 		- D.G.V.C,Chennai
+ Percentage			- 82%
+</string>
+
+
+    <string name="action_settings">Settings</string>
+</resources>
